@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Ecomm-Project-DataFactory"
+		},
+		"ls_datalake_sink_accountKey": {
+			"value": ""
+		},
+		"ls_sql_server_source_password": {
+			"value": ""
+		},
+		"ls_datalake_sink_properties_typeProperties_url": {
+			"value": "https://datalakeecomm.dfs.core.windows.net/"
+		},
+		"ls_gir_source_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/Sumitdogra3236/"
+		},
+		"ls_sql_server_source_properties_typeProperties_server": {
+			"value": "vbpmhf.h.filess.io"
+		},
+		"ls_sql_server_source_properties_typeProperties_database": {
+			"value": "ecomproject_primitive"
+		},
+		"ls_sql_server_source_properties_typeProperties_username": {
+			"value": "ecomproject_primitive"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
