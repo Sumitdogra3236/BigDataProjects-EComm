@@ -1,0 +1,9 @@
+{
+	"name": "Ecomm-Project-DataFactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e962e2ee-0964-47c3-a613-7a99d43e41ff",
+		"tenantId": "36a931d5-8feb-4f0b-a96b-912f28988dbd"
+	}
+}

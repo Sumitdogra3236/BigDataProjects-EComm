@@ -1,0 +1,18 @@
+{
+	"name": "ls_sql_server_source",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "MySql",
+		"typeProperties": {
+			"server": "vbpmhf.h.filess.io",
+			"port": "3307",
+			"database": "ecomproject_primitive",
+			"username": "ecomproject_primitive",
+			"sslMode": 1,
+			"useSystemTrustStore": 0,
+			"driverVersion": "v2",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDY4NDhGMEY1LUZCRjAtNENDOC1CQjEwLUIxMTg4RDgzODdDNF82ZjQ5NGJlYy05ZjFiLTQ5MWEtYWRkYy0xNzU1OGU0N2ZkYzQiDQp9"
+		}
+	}
+}

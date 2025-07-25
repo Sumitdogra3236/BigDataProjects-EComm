@@ -1,0 +1,19 @@
+{
+	"name": "ds_source_file_list_git",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_gir_source",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "BigDataProjects/refs/heads/main/Project-Brazillian%20Ecommerce/ForEachInput.json"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
